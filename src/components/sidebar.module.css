@@ -1,0 +1,51 @@
+
+.sidebar{
+    background-color: var(--gray-600);
+    border-radius: 10px;
+}
+.cover{
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    font-family: 'Open Sans',sans-serif;
+    
+}
+.avatar{
+    width: 7rem;
+    height: 7rem;
+    border-radius:50% ;
+    object-fit: cover;
+
+}
+.profile strong{
+    margin-top: 1rem;
+    color: var(--gray-100);
+    line-height: 1.6;
+}
+.profile span{
+    color: var(--violet-200);
+    line-height: 1.6;
+    font-size: 0.875rem;
+}
+.sidebar footer a {
+    border: 1px solid var(--violet-200);
+    height: 50px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+     padding: 0 1.5rem; 
+    justify-content: center;
+    align-items: center;
+
+    color: var(--gray-100); 
+}
+.repositorio a:hover{
+    background-color:var(--violet-200);
+}

@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+:root{
+    --white:#fff;
+    --gray-100:#e1e1e6;
+    --gray-200:#d2d2d6;
+    --gray-300:#c4c4cc;
+    --gray-400:#8d8d99;
+    --gray-500:#323238;
+    --gray-600:#29292e;
+    --gray-700:#202024;
+    --gray-800:#121214;
+    --green-300:#00837e;
+    --green-500:#00875f;
+    --red-500:#f75a70;
+    --violet-100:#7a31da;
+    --violet-200:#6f00ff;
+    
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    color: var(--gray-100);
+    background-color:var(--gray-800) ;
+}
