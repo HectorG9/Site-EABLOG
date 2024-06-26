@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 256px auto;
     max-width: 70rem;
+    border: 1px solid var(--violet-200);
     border-radius: 20px;
     margin: 0 auto;
     padding: 0 1rem;
