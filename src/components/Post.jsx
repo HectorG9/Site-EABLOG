@@ -17,7 +17,7 @@ export default function Post() {
       </header>
       <div className={style.content}>
         <p>Programador front-end</p>
-        <p>Olá meu nome e Gustavo Montorse , e sou Programador Front-end-junior ,estou em busca de experiencia ,e me adaptar mais a programção.</p>
+        <p>Olá meu nome e Gustavo Montorse , e sou Desenvolvedor Front-end-junior ,estou em busca de experiencia ,e me adaptar mais a programção.</p>
 
        <p><a href="https://github.com/gustaS244?tab=repositories">Repositorios</a></p>
         <p><a href="https://github.com/gustaS244/CL">Ultimo Projeto</a></p>
