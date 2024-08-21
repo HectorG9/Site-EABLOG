@@ -404,9 +404,6 @@ transform: scale(1.2);
 }
 
 
-
-
-
 .home .shape__big,
 .home .shape__small{
   position: absolute;
@@ -902,6 +899,15 @@ transform: scale(1.2);
 .footer__social-link{
   font-size: 1.25rem;
 
+}
+
+.footer-link {
+  color: var(--first-color);
+  padding: 10px;
+  /* font-size: 15px; */
+}
+.footer-link:hover{
+  color: var(--text-color);
 }
 .footer__copy{
   display: block;
