@@ -22,6 +22,8 @@
 </head>
 
 <body>
+    <!-- Adicionando Áudio ao site -->
+   
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
@@ -54,8 +56,20 @@
             <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-menu-line"></i>
             </div>
-
+            
         </nav>
+        <audio autoplay muted id="musica"> <!-- agora com autoplay e sem controls-->
+            <source src="./assets/video/Snoop Dogg feat. The Doors - Riders on the Storm.mp3" type="audio/mpeg">
+                <!-- <source src="" type=""> -->
+            <!-- Autoplay is allowed. -->
+            <!-- <iframe src="assets/video/Snoop Dogg feat. The Doors - Riders on the Storm.mp3" allow="autoplay"></iframe> -->
+        </audio>
+        <!-- <script>
+            function play() {
+                document.getElementById("musica").play();
+            }
+            play();
+        </script> -->
     </header>
 
     <!--************* MAIN CODE ****************-->
@@ -91,7 +105,7 @@
                         <h3 class="home__car-name">0-100 km/h</h3>
 
                     </div>
-
+                   
                     <div class="home__car-data">
                         <div class="home__car-icon">
                             <i class="ri-dashboard-2-line"></i>
@@ -310,7 +324,6 @@
                     <li>
                         <button class="featured__item" data-filter=".ferrari">
                             <img src="assets/img/icon-ferrari.png" alt="">
-
                         </button>
                     </li>
                     <li>
