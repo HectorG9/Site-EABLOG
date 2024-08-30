@@ -1,140 +1,736 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/marcas.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/marcas.css" />
+  </head>
+  <body>
     <header class="header" id="header">
-        <nav class="nav container">
-            <a href="" class="nav__logo">
-                <i class="ri-steering-fill"></i>
-                NextCar
-            </a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="./index.html" class="nav__link active-link">Home</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link ">Sobre</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#popular" class="nav__link">Modelos</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="./Marcas.html" class="nav__link">Marcas</a>
-                    </li>
-                </ul>
+      <nav class="nav container">
+        <a href="" class="nav__logo">
+          <i class="ri-steering-fill"></i>
+          NextCar
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link active-link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">Sobre</a>
+            </li>
+            <li class="nav__item">
+              <a href="#popular" class="nav__link">Modelos</a>
+            </li>
+            <li class="nav__item">
+              <a href="./Marcas.html" class="nav__link">Marcas</a>
+            </li>
+          </ul>
 
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
-                </div>
-            </div>
+          <div class="nav__close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
 
-            <!-- Togglar Button -->
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-line"></i>
-            </div>
-
-        </nav>
+        <!-- Togglar Button -->
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
     </header>
 
     <!--==================== CARDS ====================-->
-    <main>
-        <section>
-            
-        </section>
-    </main>
+    <section class="popular section" id="popular">
+      <h2 class="section__title">Chevrolet <br /></h2>
+      <div class="popular__container container swiper">
+        <div class="swiper-wrapper">
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Opala SS 4.1</h3>
+
+            <img
+              src="assets/img/opala-Photoroom.png"
+              alt=""
+              class="popular__img"
+            />
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 11,7 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 190 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V6
+              </div>
+            </div>
+            <h3 class="popular__price">$30,000</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C1</h3>
+
+            <img
+              src="assets/img/c1-Photoroom.png"
+              alt=""
+              class="popular__img"
+            />
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 5,70 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 214 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+            <h3 class="popular__price">$3,200 ~ 3,1M.</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C2</h3>
+
+            <img
+              src="assets/img/c2-Photoroom.png"
+              alt=""
+              class="popular__img"
+            />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 4,8 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 245 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$119,314</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C3</h3>
+
+            <img src="assets/img/c3.png" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 8.1 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 201 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$12,000 ~ 500,000</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C4</h3>
+
+            <img src="assets/img/c4.png" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 5.7 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 254 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$30,000</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C5</h3>
+
+            <img src="assets/img/c5.png" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 4.7 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 281 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$150,900</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C6</h3>
+
+            <img src="assets/img/corvette.png" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 4.4 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 300 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$30,000 ~ 60,000</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C7</h3>
+
+            <img
+              src="assets/img/c7-Photoroom.png"
+              alt=""
+              class="popular__img"
+            />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 3 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 330 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$95,260</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">Chevrolet</h1>
+            <h3 class="popular__subtitle">Corvette C8</h3>
+
+            <img src="assets/img/c8" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 3 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 356 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$150,900</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="popular section" id="popular">
+      <h2 class="section__title">BMW <br /></h2>
+      <div class="popular__container container swiper">
+        <div class="swiper-wrapper">
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">BMW</h1>
+            <h3 class="popular__subtitle">BMW M3 E36</h3>
+
+            <img
+              src="assets/img/M3E36-Photoroom.png"
+              alt=""
+              class="popular__img"
+            />
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 7,9 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 233 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V6
+              </div>
+            </div>
+            <h3 class="popular__price">$175,900</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">BMW</h1>
+            <h3 class="popular__subtitle">BMW M4</h3>
+
+            <img
+              src="assets/img/M4-Photoroom.png"
+              alt=""
+              class="popular__img"
+            />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 4,1 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 250 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V6
+              </div>
+            </div>
+
+            <h3 class="popular__price">$114,900</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">BMW</h1>
+            <h3 class="popular__subtitle">BMW CSL 3.0</h3>
+
+            <img src="assets/img/bmw-csl.png" alt="" class="popular__img" />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 4.9 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 250 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V6
+              </div>
+            </div>
+
+            <h3 class="popular__price">$20,900</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+
+          <article class="popular__card swiper-slide">
+            <div class="shapeX shape__smaller"></div>
+
+            <h1 class="popular__title">BMW</h1>
+            <h3 class="popular__subtitle">BMW Z3</h3>
+
+            <img
+              src="assets/img/bmw-z3-Photoroom.png"
+              alt=""
+              class="popular__img"
+            />
+
+            <div class="popular__data">
+              <div class="popular__data-group">
+                <i class="ri-dashboard-2-line"></i> 7.1 sec
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-exchange-funds-line"></i> 218 Km/h
+              </div>
+              <div class="popular__data-group">
+                <i class="ri-charging-pile-2-line"></i> V8
+              </div>
+            </div>
+
+            <h3 class="popular__price">$20,900</h3>
+            <button class="button popular__button">
+              <i class="ri-shopping-bag-2-line"></i>
+            </button>
+          </article>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section class="popular section" id="popular">
+        <h2 class="section__title">Lamborghini <br /></h2>
+        <div class="popular__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+  
+              <h1 class="popular__title">Lamborghini</h1>
+              <h3 class="popular__subtitle">Lamborghini Gallardo</h3>
+  
+              <img
+                src="assets/img/Lamborghini Galardo-Photoroom.png"
+                alt=""
+                class="popular__img"
+              />
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 4,0 sec
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 315 Km/h
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-charging-pile-2-line"></i> V10   
+                </div>
+              </div>
+              <h3 class="popular__price">$120,000</h3>
+              <button class="button popular__button">
+                <i class="ri-shopping-bag-2-line"></i>
+              </button>
+            </article>
+  
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+  
+              <h1 class="popular__title">Lamborghini</h1>
+              <h3 class="popular__subtitle">Lamborghini Murcielago</h3>
+  
+              <img
+                src="assets/img/Lamborghini Murcielago-Photoroom.png"
+                alt=""
+                class="popular__img"
+              />
+  
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 3,8 sec
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 330 Km/h
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-charging-pile-2-line"></i> V12
+                </div>
+              </div>
+  
+              <h3 class="popular__price">$150,00</h3>
+              <button class="button popular__button">
+                <i class="ri-shopping-bag-2-line"></i>
+              </button>
+            </article>
+  
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+  
+              <h1 class="popular__title">Lamborghini</h1>
+              <h3 class="popular__subtitle">Lamborghini Aventador</h3>
+  
+              <img src="assets/img/Lamborghini Aventador-Photoroom.png" alt="" class="popular__img" />
+  
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 4.9 sec
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 355 Km/h
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-charging-pile-2-line"></i> V12
+                </div>
+              </div>
+  
+              <h3 class="popular__price">$20,900</h3>
+              <button class="button popular__button">
+                <i class="ri-shopping-bag-2-line"></i>
+              </button>
+            </article>
+  
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+  
+              <h1 class="popular__title">Lamborghini</h1>
+              <h3 class="popular__subtitle">Lamborghini Huracan</h3>
+  
+              <img
+                src="assets/img/Lamborghini Huracan-Photoroom.png"
+                alt=""
+                class="popular__img"
+              />
+  
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 2.9 sec
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 325 Km/h
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-charging-pile-2-line"></i> V10
+                </div>
+              </div>
+  
+              <h3 class="popular__price">$240,900</h3>
+              <button class="button popular__button">
+                <i class="ri-shopping-bag-2-line"></i>
+              </button>
+            </article>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <section class="popular section" id="popular">
+        <h2 class="section__title">Porsche <br /></h2>
+        <div class="popular__container container swiper">
+          <div class="swiper-wrapper">
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+  
+              <h1 class="popular__title">Porsche</h1>
+              <h3 class="popular__subtitle">Porsche Carrera 911</h3>
+  
+              <img
+                src="assets/img/Porsche Carrera 911-Photoroom.png"
+                alt=""
+                class="popular__img"
+              />
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 2,7 sec
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 330 Km/h
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-charging-pile-2-line"></i> v6 
+                </div>
+              </div>
+              <h3 class="popular__price">$120,000</h3>
+              <button class="button popular__button">
+                <i class="ri-shopping-bag-2-line"></i>
+              </button>
+            </article>
+  
+            <article class="popular__card swiper-slide">
+              <div class="shapeX shape__smaller"></div>
+  
+              <h1 class="popular__title">Porsche </h1>
+              <h3 class="popular__subtitle">Porsche Cayman 718</h3>
+  
+              <img
+                src="assets/img/Porsche 718-Photoroom.png"
+                alt=""
+                class="popular__img"
+              />
+  
+              <div class="popular__data">
+                <div class="popular__data-group">
+                  <i class="ri-dashboard-2-line"></i> 4,9 sec
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-exchange-funds-line"></i> 275 Km/h
+                </div>
+                <div class="popular__data-group">
+                  <i class="ri-charging-pile-2-line"></i> 2.0
+                </div>
+              </div>
+  
+              <h3 class="popular__price">$150,00</h3>
+              <button class="button popular__button">
+                <i class="ri-shopping-bag-2-line"></i>
+              </button>
+            </article>
+
+            <article class="popular__card swiper-slide">
+                <div class="shapeX shape__smaller"></div>
+    
+                <h1 class="popular__title">Porsche </h1>
+                <h3 class="popular__subtitle">Porsche Taycan</h3>
+    
+                <img
+                  src="assets/img/Porsche-Taycan.png"
+                  alt=""
+                  class="popular__img"
+                />
+    
+                <div class="popular__data">
+                  <div class="popular__data-group">
+                    <i class="ri-dashboard-2-line"></i> 2,8 sec
+                  </div>
+                  <div class="popular__data-group">
+                    <i class="ri-exchange-funds-line"></i> 318 Km/h
+                  </div>
+                  <div class="popular__data-group">
+                    <i class="ri-charging-pile-2-line"></i> Eletrico
+                  </div>
+                </div>
+    
+                <h3 class="popular__price">$150,00</h3>
+                <button class="button popular__button">
+                  <i class="ri-shopping-bag-2-line"></i>
+                </button>
+              </article>
+  
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
     <!--==================== FOOTER ====================-->
     <footer class="footer section">
-        <div class="shapeX shape__big"></div>
-        <div class="shapeX shape__small"></div>
+      <div class="shapeX shape__big"></div>
+      <div class="shapeX shape__small"></div>
 
-        <div class="footer__container container grid">
-            <div class="footer__content">
-                <a href="#" class="footer__logo">
-                    <i class="ri-steering-line"></i>
-                    EACars
-                </a>
-                <p class="footer__description">
-                    Procuramos sanar suas vontades <br> e tornar seu sonho real.
-                </p>
-            </div>
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <i class="ri-steering-line"></i>
+            EACars
+          </a>
+          <p class="footer__description">
+            Procuramos sanar suas vontades <br />
+            e tornar seu sonho real.
+          </p>
+        </div>
 
+        <div class="footer__content">
+          <h3 class="footer__title">Companhia</h3>
 
-            <div class="footer__content">
-
-                <h3 class="footer__title">Companhia</h3>
-
-                <ul class="footer__links">
-                    <li>
-                        <a href="#" class="footer__links">Sobre</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">Carros</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">História</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">Shopping</a>
-                    </li>
-                    <!-- <li>
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__links">Sobre</a>
+            </li>
+            <li>
+              <a href="#" class="footer__links">Carros</a>
+            </li>
+            <li>
+              <a href="#" class="footer__links">História</a>
+            </li>
+            <li>
+              <a href="#" class="footer__links">Shopping</a>
+            </li>
+            <!-- <li>
                         <a href="#" class="footer__links"></a>
                     </li> -->
-                </ul>
-            </div>
-
-            <div class="footer__content">
-                <h3 class="footer__title">Informações </h3>
-                <ul class="footer__links">
-                    <li>
-                        <a href="mailto:hector.guedesmonteiro@gmail.com" class="footer__links">Procure o Lider</a>
-                    </li>
-                    <li>
-                        <a href="" class="footer__links">Nos Contate</a>
-                    </li>
-                    <li>
-                        <a href="#" class="footer__links">Serviços</a>
-                    </li>
-
-                </ul>
-            </div>
-
-            <div class="footer__content">
-                <h3 class="footer__title">Nos Siga </h3>
-
-                <ul class="footer__social">
-                    <a href="" target="_blank" class="footer__social-link">
-                        <i class="ri-facebook-fill"></i>
-                    </a>
-                    <a href="" target="_blank" class="footer__social-link">
-                        <i class="ri-instagram-line"></i>
-                    </a>
-                    <a href="" target="_blank" class="footer__social-link">
-                        <i class="ri-twitter-line"></i>
-                    </a>
-                </ul>
-            </div>
+          </ul>
         </div>
-        <span class="footer__copy">
-            &#169; <a target="_blank" href="https://www.fiemg.com.br/senai/" class="footer__dev-link">Instituição Senai</a> <h4>Desenvoldores</h4>
-            <a href="https://github.com/gustaS244" class="footer-link">Gustavo</a> 
-            <a href="https://github.com/HectorG9" class="footer-link">Hector</a> 
-            <a href="https://github.com/LHPS31" class="footer-link">Luiz .H</a>
-            <p id="date"></p>
-        </span>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Informações</h3>
+          <ul class="footer__links">
+            <li>
+              <a
+                href="mailto:hector.guedesmonteiro@gmail.com"
+                class="footer__links"
+                >Procure o Lider</a
+              >
+            </li>
+            <li>
+              <a href="" class="footer__links">Nos Contate</a>
+            </li>
+            <li>
+              <a href="#" class="footer__links">Serviços</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Nos Siga</h3>
+
+          <ul class="footer__social">
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-facebook-fill"></i>
+            </a>
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a href="" target="_blank" class="footer__social-link">
+              <i class="ri-twitter-line"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+      <span class="footer__copy">
+        &#169;
+        <a
+          target="_blank"
+          href="https://www.fiemg.com.br/senai/"
+          class="footer__dev-link"
+          >Instituição Senai</a
+        >
+        <h4>Desenvoldores</h4>
+        <a href="https://github.com/gustaS244" class="footer-link">Gustavo</a>
+        <a href="https://github.com/HectorG9" class="footer-link">Hector</a>
+        <a href="https://github.com/LHPS31" class="footer-link">Luiz .H</a>
+        <p id="date"></p>
+      </span>
     </footer>
 
     <!--========== SCROLL UP ==========-->
 
     <a href="" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-s-line"></i>
+      <i class="ri-arrow-up-s-line"></i>
     </a>
-
 
     <!--=============== SCROLL REVEAL - PAGE ANNIMATION ===============-->
     <script src="assets/js/scrollrevealAnimation.min.js"></script>
@@ -147,6 +743,5 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="assets/js/main.js"></script>
-
-</body>
+  </body>
 </html>
