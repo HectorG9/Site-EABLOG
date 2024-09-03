@@ -17,14 +17,14 @@ export default function Post() {
       </header>
       <div className={style.content}>
         <p>Programador front-end</p>
-        <p>Olá meu nome e Gustavo Montorse , e sou Desenvolvedor Front-end-junior ,estou em busca de experiencia ,e me adaptar mais a programção.</p>
+        <p>Olá meu nome e Gustavo Montorse ,sou Desenvolvedor Front-end-junior ,estou em busca de experiencia ,e me adaptar mais a programção.</p>
 
        <p><a href="https://github.com/gustaS244?tab=repositories">Repositorios</a></p>
-        <p><a href="https://github.com/gustaS244/CL">Ultimo Projeto</a></p>
+        <p><a href="https://github.com/HectorG9/Site-EABLOG">Ultimo Projeto</a></p>
       </div>
 
       <form action="">
-        <strong>5 meses de experiencia Profissional no curso do senai e estou me formando no 3 ano do ensino medio .</strong>
+        <strong>8 meses de experiencia Profissional no curso do senai e formando no ensino medio .</strong>
       </form>
       <div>
 

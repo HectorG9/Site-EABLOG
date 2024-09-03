@@ -12,7 +12,7 @@ export default function comments() {
           <header className={styles.commentsExperiencias}>
             <div>
               <h1>Experiencias:</h1>
-              <strong>Experiencias em HTML, React e Java script.</strong>
+              <strong>Experiencias em HTML, React e Java script, entregador de encomendas, anunciante (marketing), lava a jato, auxiliar de pintor, auxiliar de obras, auxiliar de serralheria, , Mecanica de motocicletas, Montagem e manutenção de computadores .</strong>
             
             </div>
             </header>
@@ -21,8 +21,8 @@ export default function comments() {
             <div>
               <h2>Habilidades:</h2>
             
-              <strong>Manutençao e montagem de computadores.</strong>
-              <h4>Conhecimento na area da mecanica de motores e manutençao de veiculos a combustão.</h4>
+              <strong>Muito proativo para trabalhos que exigem foco extremo.</strong>
+              <h4></h4>
               
           
             </div>
